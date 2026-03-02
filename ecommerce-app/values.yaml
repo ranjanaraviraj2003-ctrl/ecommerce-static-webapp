@@ -9,7 +9,7 @@ appDeployment:
 
 image:
  repository: ranjanaraviraj2003-ctrl/e-commerce-app
- tag: v3.0.0
+ tag: v1.0.1
 port: 80
 
 appService:
