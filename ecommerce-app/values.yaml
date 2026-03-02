@@ -8,7 +8,7 @@ appDeployment:
  name: ecommerce-conatiner
 
 image:
- repository: ranjanaraviraj2003-ctrl/e-commerce-app
+ repository: ranjana10703/e-commerce-app
  tag: v1.0.1
 port: 80
 
