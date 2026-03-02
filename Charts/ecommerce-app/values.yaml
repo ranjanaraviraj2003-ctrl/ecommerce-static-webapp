@@ -1,6 +1,6 @@
 namespace: ecommerce-ns 
 
-replicas: 4
+replicas: 3
 
 appDeployment:
  labels:
