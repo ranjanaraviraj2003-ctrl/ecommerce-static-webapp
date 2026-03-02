@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: ecommerce-deployment
-  namespace: ranjana-ns
+  namespace: ecommerce-ns
 
 spec:
   replicas: 3
@@ -16,6 +16,6 @@ spec:
     spec:
       containers: 
       - name: vegitable-app
-        image: ranjanan10703/e-commerce-app:v3.0.0
+        image: ranjanan10703/e-commerce-app:v1.0.1
         ports:
         - containerPort: 80
